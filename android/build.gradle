@@ -40,6 +40,19 @@ android {
         disable 'InvalidPackage'
     }
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_21
+        targetCompatibility JavaVersion.VERSION_21
+    }
+    kotlinOptions {
+        jvmTarget = '21'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+        test.java.srcDirs += 'src/test/kotlin'
+    }
+
     dependencies {
         implementation "com.pusher:pusher-java-client:2.2.5"
     }
