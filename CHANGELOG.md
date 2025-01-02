@@ -75,3 +75,4 @@
 
 - Update compileSdk version.
 - Added Notice on Reduced/Stopped Support in Favor of New Package.
+## 0.0.4+3 - Jan 2, 2025
